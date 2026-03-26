@@ -4,11 +4,11 @@
 
 ## Workflow
 
-Use the external collaborator workflow:
+Use the collaborator workflow:
 
-- `external_collaborator/AGENT_GUIDE.md`
-- `external_collaborator/STAGE1_INTAKE_AND_PLANNING.md`
-- `external_collaborator/STAGE2_IMPLEMENTATION_TESTING_AND_HANDOFF.md`
+- `collaborator/AGENT_GUIDE.md`
+- `collaborator/stage1/AGENT_GUIDE.md`
+- `collaborator/stage2/AGENT_GUIDE.md`
 
 ## Templates
 
@@ -20,4 +20,4 @@ Scaffold task folders with:
 - `templates/PITFALLS.md`
 - `templates/CONTEXT_EXTERNAL.md`
 
-This guide set is intentionally external-only. Internal admin workflows live in the main AgentHLE repo, not in `agenthle-base`.
+This guide set is intentionally collaborator-only. Internal admin workflows live in the main AgentHLE repo, not in `agenthle-base`.

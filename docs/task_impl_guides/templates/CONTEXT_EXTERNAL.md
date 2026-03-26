@@ -1,29 +1,26 @@
-# Context - <task_name>
+# Context — <task_name>
 
-> Living doc for external collaborator tasks. Update this at the end of every session. Admins will use it for migration and follow-up work.
+> **Living doc for collaborator tasks.** Update this at the end of every session. Admins will use it for migration and follow-up work.
 
 ## Branch
-
 - **Git branch:** `<yourname>/<task_name>`
 - **Python interpreter:** `python` (do NOT use `python3` or `conda`)
 
+## Task And Handoff Context
+- **Task ID (`domain/task`):**
+- **Domain name:**
+- **Task name:**
+- **Variant name / rule:**
+- **Task source:** <!-- zip, shared drive, local working copy, etc. -->
+- **Current stage:** <!-- stage1 / stage2 -->
+- **Current handoff status:** <!-- e.g. stage1_planning_stable -->
+- **PR URL:**
+
 ## Current State
+<!-- One paragraph: which stage we're in, what changed this session, what is blocked, and what admins need to know next -->
 
-<!-- One paragraph: current stage, what changed this session, what is blocked, and what admins need to know next -->
-
-## Completed
-
-- [ ] Local data source confirmed
-- [ ] DATA_INTAKE.md written and confirmed
-- [ ] TASK_INTAKE.md written and confirmed
-- [ ] Data pipeline designed and recorded
-- [ ] Data pipeline executed and validated against the task design
-- [ ] Stage 1 review loop completed
-- [ ] main.py implemented
-- [ ] Pos/neg tests passing on collaborator VM
-- [ ] README.md and REPRO_COMMANDS.md written
-- [ ] GCP access granted to AgentHLE admins
-- [ ] PR opened against `cua-verse/agenthle-base`
+## Check List
+<!-- Paste the checklist for the current stage here and update it in place. -->
 
 ## Key Decisions Made
 
@@ -32,25 +29,30 @@
 | | |
 
 ## Open Questions
-
 - [ ]
 
-## Collaborator VM Info
-
+## Working VM Info
 - **Project name:**
 - **Zone:**
 - **VM name:**
 - **OS:**
-- **Username / access path:**
-- **How to retrieve IP:**
+- **Access path:**
+- **Username:**
+- **IP handling note:** do not record the current IP in this file; keep transient IP notes in a task-local `tmp/` folder if needed
+- **Remote access verified this session?:**
+- **Software/runtime summary:**
 
-## Important Paths On Collaborator VM
-
-- **Task root:**
-- **Input data:**
+## Important Paths (collaborator VM)
+- **Canonical remote root:**
+- **Task-local tmp/:**
+- **Input:**
 - **Output:**
-- **Reference / expected output:**
-- **Software install dir:**
+- **Reference:**
+- **Output test pos:**
+- **Output test neg:**
+- **Software:**
+- **Remote staging verified?:**
+- **Any local-only copies still in use?:**
 
 ## Software Installation Record
 
@@ -58,15 +60,16 @@
 |---|---|---|---|---|
 | | | | | |
 
-## Handoff Checklist
-
-- **PR URL:**
-- **GCP commands run:** <!-- path or short summary -->
+## Handoff / Access Log
 - **Admin user granted:** `agenthle.sv@gmail.com`
 - **Admin service account granted:** `agenthle-admin@agenthle-488519.iam.gserviceaccount.com`
+- **Grant/access steps run:** <!-- command list, console actions, or "not yet done" -->
 - **Migration note:** <!-- one short paragraph -->
 
-## Session Log
+| Date | Handoff state | What changed / what admin should do next |
+|---|---|---|
+| | | |
 
+## Session Log
 <!-- Append a one-line summary after each session -->
 <!-- YYYY-MM-DD: <what was done> -->
