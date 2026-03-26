@@ -25,6 +25,7 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
+*:Zone.Identifier*
 
 # Logs and results
 *.log
